@@ -1,11 +1,13 @@
 import React from 'react';
-import {Navigate} from "react-router-dom";
+import { Navigate} from "react-router-dom";
+import AuthStatus from "../api/AuthStatus";
 
 const PublicPage = () => {
     return (
         <div>
-            Public Page
-            {/*<Navigate to="/login"/>*/}
+            <AuthStatus/>
+            <h1>Public Page</h1>
+            <Navigate to="/login"/>
         </div>
     );
 };

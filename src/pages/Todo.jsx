@@ -1,9 +1,11 @@
 import React from 'react';
+import AuthStatus from "../api/AuthStatus";
 
 const Todo = () => {
     return (
         <div>
-            ProtectedPage
+            <AuthStatus/>
+            Todo Page
         </div>
     );
 };
