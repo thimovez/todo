@@ -1,0 +1,72 @@
+.wrapper {
+  width: 481px;
+  height: 464px;
+  background-color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__label {
+    display: flex;
+    flex-direction: column;
+    color: #333333;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    p {
+      margin: 40px 0 7px 0;
+    }
+  }
+  &__input {
+    width: 421px;
+    height: 53px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    border: 1px solid #9A9A9A;
+    outline: none;
+    padding: 0 0 0 7px;
+  }
+}
+
+.login-button {
+  width: 421px;
+  height: 53px;
+  border: none;
+  cursor: pointer;
+  margin: 40px 0 20px 0;
+  text-transform: uppercase;
+  color: white;
+  background-color: #0076C0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.forgot-password {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #056DAE;
+  margin: 0 0 23px 0;
+}
+
+.registration {
+  width: 100%;
+  height: 63px;
+  border: none;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  background-color: #F6F6F6;
+  a {
+    color: black;
+  }
+}

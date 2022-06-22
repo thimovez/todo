@@ -1,6 +1,7 @@
 import React from "react";
 import Router from "./router/router"
 import AuthProvider from "./api/AuthProvider";
+import "./styles/App.scss"
 
 function App() {
   return (
