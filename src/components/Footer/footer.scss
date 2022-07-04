@@ -1,0 +1,17 @@
+.background {
+  display: flex;
+  justify-content: space-between;
+  height: 175px;
+  background: #333333;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar {
+  &__ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
