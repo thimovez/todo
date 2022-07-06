@@ -3,6 +3,10 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1;
+  height: 100%;
+}
+html {
+  height: 100%;
 }
 
 *,
@@ -34,4 +38,9 @@ ul,
 li {
   margin: 0;
   padding: 0;
+}
+
+.container {
+  width: 752px;
+  margin: 0 auto;
 }
